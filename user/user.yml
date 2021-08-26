@@ -3,8 +3,11 @@ spring:
     hibernate:
       ddl-auto: create
   datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgres://qnluwbcj:DaLY1tWWYljkSy9Tm30vA_ax1dVDICCK@chunee.db.elephantsql.com/qnluwbcj
+     driver-class-name: org.h2.Driver
+     url: jdbc:h2:mem:db;DB_CLOSE_DELAY=-1
+     hikari:
+       username: sa
+       password: sa
 
 eureka:
   instance:
