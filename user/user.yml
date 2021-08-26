@@ -3,7 +3,7 @@ spring:
     hibernate:
       ddl-auto: create
   datasource:
-    url: jdbc:postgresql://postgres://qnluwbcj:DaLY1tWWYljkSy9Tm30vA_ax1dVDICCK@chunee.db.elephantsql.com/qnluwbcj
+    url: jdbc:postgres://qnluwbcj:DaLY1tWWYljkSy9Tm30vA_ax1dVDICCK@chunee.db.elephantsql.com/qnluwbcj
 
 eureka:
   instance:
