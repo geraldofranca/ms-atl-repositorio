@@ -3,7 +3,6 @@ spring:
     hibernate:
       ddl-auto: create
   datasource:
-    driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://postgres://qnluwbcj:DaLY1tWWYljkSy9Tm30vA_ax1dVDICCK@chunee.db.elephantsql.com/qnluwbcj
 
 eureka:
