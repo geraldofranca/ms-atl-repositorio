@@ -4,9 +4,9 @@ spring:
       ddl-auto: create
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://pgsql.mentorti.com.br:5432/mentorti4
+    url: jdbc:postgresql://pgsql.mentorti.com.br:5432/mentorti5
     hikari:
-      username: mentorti4
+      username: mentorti5
       password: 123456
 
 eureka:
