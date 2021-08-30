@@ -4,10 +4,10 @@ spring:
       ddl-auto: create
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://chunee.db.elephantsql.com:5432/qnluwbcj
+    url: jdbc:postgresql://pgsql.mentorti.com.br:5432/mentorti4
     hikari:
-      username: qnluwbcj
-      password: DaLY1tWWYljkSy9Tm30vA_ax1dVDICCK
+      username: mentorti4
+      password: 123456
 
 eureka:
   instance:
