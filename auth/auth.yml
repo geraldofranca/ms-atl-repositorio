@@ -1,10 +1,11 @@
 spring:
   datasource:
-    driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/atlantico
+    username: postgres
+    password: 123456
     hikari:
-      username: postgres
-      password: 123456
+      connectionTimeout: 20000
+      maximumPoolSize: 5
 
 eureka:
   instance:
