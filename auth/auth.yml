@@ -6,7 +6,12 @@ spring:
     hikari:
       connectionTimeout: 20000
       maximumPoolSize: 5
-
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: 123456
+    
 eureka:
   instance:
     hostname: localhost
